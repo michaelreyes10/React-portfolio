@@ -4,11 +4,12 @@ import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 import Expirience from './Pages/Expirience'
 import Nav from './components/Nav'
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <Nav/>
+        <Nav />
         <Routes>
         <Route path='/' element={< Home />} />
         <Route path='projects' element={< Projects />} />
