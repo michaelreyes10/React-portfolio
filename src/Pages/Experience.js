@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Experience() {
+function AboutMe() {
   return (
-    <div>Experience</div>
+    <div>About Me
+      <p>I am </p>
+    </div>
+    
+
   )
 }
 
-export default Experience
+export default AboutMe

@@ -5,7 +5,7 @@ import Projects from './Pages/Projects'
 import Experience from './Pages/Experience'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-
+import ProjectDisplay from "./Pages/ProjectDisplay";
 
 function App() {
   return (
@@ -14,8 +14,9 @@ function App() {
         <Nav />
         <Routes>
         <Route path='/' element={< Home />} />
-        <Route path='projects' element={< Projects />} />
-        <Route path='Experience' element={< Experience />} />
+        <Route path='/projects' element={< Projects />} />
+        <Route path='/project/:id' element={< ProjectDisplay />} />
+        <Route path='/Experience' element={< Experience />} />
         </Routes>
         <Footer/>
       </Router>
