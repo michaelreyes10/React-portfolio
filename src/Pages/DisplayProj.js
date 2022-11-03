@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import "../styles/ProjectDisplay.css";
+import "../styles/DisplayProj.css";
 
-function ProjectDisplay() {
+function DisplayProj() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
@@ -19,4 +19,4 @@ function ProjectDisplay() {
   );
 }
 
-export default ProjectDisplay;
+export default DisplayProj;

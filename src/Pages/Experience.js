@@ -2,8 +2,8 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <div>About Me
-      <p>I am </p>
+    <div>Experience
+      <p>To be continued... </p>
     </div>
     
 
